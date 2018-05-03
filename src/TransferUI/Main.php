@@ -34,7 +34,7 @@ class Main extends PluginBase implements Listener {
 					}
 						switch($result){
 							case 0:
-								$command = "transferserver 147.135.233.227 19132";
+								$command = "transferserver vortexpe.tk 19132";
 								$this->getServer()->getCommandMap()->dispatch($sender, $command);
 							break;
               
@@ -43,11 +43,11 @@ class Main extends PluginBase implements Listener {
 					});
 					$form->setTitle("TransferUI Screen");
 					$form->setContent("Please choose your server.");
-					$form->addButton(TextFormat::BOLD . "§c§lRebirth§b§lPE §a§lMinigames");	                          	
+					$form->addButton(TextFormat::BOLD . "§5Swift Factions");	                          	
 					$form->sendToPlayer($sender);
 				}
 				else{
-					$sender->sendMessage(TextFormat::RED . "Use this Command in-game.");
+					$sender->sendMessage(TextFormat::RED . "Use This Command In-Game.");
 					return true;
 				}
 			break;
