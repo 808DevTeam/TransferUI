@@ -1,2 +1,2 @@
 # TransferUI
-This plugin allows peole to transfer servers through UI
+This Plugin Allows People To Transfer Servers Through A UI
